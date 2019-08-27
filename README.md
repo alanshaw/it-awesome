@@ -30,3 +30,4 @@ Useful modules for working with async iterables:
 * [`recoverable-iterator`](https://github.com/alanshaw/recoverable-iterator) - If an iterator errors, restart and continue
 * [`stream-to-it`](https://github.com/alanshaw/stream-to-it) - Convert Node.js streams to streaming iterables
 * [`streaming-iterables`](https://github.com/bustle/streaming-iterables) - A Swiss army knife for async iterables
+* [`iter-tools`](https://github.com/iter-tools/iter-tools) - The iterable toolbox
