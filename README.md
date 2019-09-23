@@ -16,6 +16,7 @@ Useful modules for working with async iterables:
 * [`it-block`](https://github.com/alanshaw/it-block) - Transform input into equally-sized blocks of output
 * [`it-glob`](https://github.com/achingbrain/it-glob) - Async iterable filename pattern matcher
 * [`it-goodbye`](https://github.com/alanshaw/it-goodbye) - Add a goodbye handshake to a [duplex async iterable](https://gist.github.com/alanshaw/591dc7dd54e4f99338a347ef568d6ee9#duplex-it)
+* [`it-keepalive`](https://github.com/alanshaw/it-keepalive) - Keep an async iterable alive by yielding a value if it doesn't yield a value before the timeout
 * [`it-length-prefixed`](https://github.com/alanshaw/it-length-prefixed) - Streaming length prefixed buffers with async iterables
 * [`it-multipart`](https://github.com/achingbrain/it-multipart) - HTTP multipart message parser
 * [`it-pair`](https://github.com/alanshaw/it-pair) - A pair of {source, sink} streams that are internally connected (what goes into the sink comes out the source)
