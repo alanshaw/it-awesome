@@ -23,6 +23,7 @@ Useful modules for working with async iterables:
 * [`it-pipe`](https://github.com/alanshaw/it-pipe) - Utility to "pipe" async iterables together
 * [`it-pushable`](https://github.com/alanshaw/it-pushable) - Pushable iterable
 * [`it-reader`](https://github.com/alanshaw/it-reader) - Read an exact number of bytes from a binary (async) iterable
+* [`it-tar`](https://github.com/alanshaw/it-tar) - Streaming tar parser (and maybe a generator in the future) and nothing else
 * [`it-to-stream`](https://github.com/alanshaw/it-to-stream) - Convert streaming iterables to Node.js streams
 * [`it-ws`](https://github.com/alanshaw/it-ws) - Simple async iterators for websocket client and server connections
 * [`iterable-ndjson`](https://github.com/alanshaw/iterable-ndjson) - NDJSON parsing/encoding
