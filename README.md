@@ -3,23 +3,24 @@
 Useful modules for working with async iterables:
 
 * [`abortable-iterator`](https://github.com/alanshaw/abortable-iterator) - Make any iterator or iterable abortable via an AbortSignal
-* [`async-iterator-all`](https://github.com/achingbrain/async-iterator-all) - Collects all values from an async iterator and returns them as an array
-* [`async-iterator-batch`](https://github.com/achingbrain/async-iterator-batch) - Takes an async iterator that emits variable length arrays and emits them as fixed size batches
-* [`async-iterator-buffer-stream`](https://github.com/achingbrain/async-iterator-buffer-stream) - An async iterator that emits buffers containing bytes up to a certain length
-* [`async-iterator-first`](https://github.com/achingbrain/async-iterator-first) - Returns the first result from an async iterator
-* [`async-iterator-last`](https://github.com/achingbrain/async-iterator-last) - Returns the last result from an async iterator
-* [`async-iterator-to-buffer`](https://github.com/achingbrain/async-iterator-to-buffer) - When passed an async iterator that returns buffers, cat them all together
 * [`async-iterator-to-pull-stream`](https://github.com/alanshaw/async-iterator-to-pull-stream) - Convert a (async) iterator to a pull stream
 * [`emitterator`](https://github.com/alanshaw/emitterator) - Convert async iterator to event emitter
 * [`event-iterator`](https://github.com/rolftimmermans/event-iterator) - Convert event emitter to async iterator
 * [`get-iterator`](https://github.com/alanshaw/get-iterator) - Get the default iterator or async iterator for an Iterable
+* [`it-all`](https://github.com/achingbrain/it/blob/master/packages/it-all) - Collect the contents of an iterable into an array
+* [`it-batch`](https://github.com/achingbrain/it/blob/master/packages/it-batch) - Batch up the contents of an iterable into arrays
 * [`it-block`](https://github.com/alanshaw/it-block) - Transform input into equally-sized blocks of output
-* [`it-glob`](https://github.com/achingbrain/it-glob) - Async iterable filename pattern matcher
+* [`it-buffer-stream`](https://github.com/achingbrain/it/blob/master/packages/it-buffer-stream) - An async iterator that emits buffers containing bytes up to a certain length
+* [`it-first`](https://github.com/achingbrain/it/blob/master/packages/it-first) - Returns the first item from an async iterable
+* [`it-flat-batch`](https://github.com/achingbrain/it/blob/master/packages/it-flat-batch) Take an iterable of variable length arrays and make them all the same length
+* [`it-glob`](https://github.com/achingbrain/it/blob/master/packages/it-glob) - Async iterable filename pattern matcher
 * [`it-goodbye`](https://github.com/alanshaw/it-goodbye) - Add a goodbye handshake to a [duplex async iterable](https://gist.github.com/alanshaw/591dc7dd54e4f99338a347ef568d6ee9#duplex-it)
 * [`it-keepalive`](https://github.com/alanshaw/it-keepalive) - Keep an async iterable alive by yielding a value if it doesn't yield a value before the timeout
+* [`it-last`](https://github.com/achingbrain/it/blob/master/packages/it-last) - Returns the last item from an async iterable
 * [`it-length-prefixed`](https://github.com/alanshaw/it-length-prefixed) - Streaming length prefixed buffers with async iterables
-* [`it-multipart`](https://github.com/achingbrain/it-multipart) - HTTP multipart message parser
+* [`it-multipart`](https://github.com/achingbrain/it/blob/master/packages/it-multipart) - HTTP multipart message parser
 * [`it-pair`](https://github.com/alanshaw/it-pair) - A pair of {source, sink} streams that are internally connected (what goes into the sink comes out the source)
+* [`it-parallel-batch`](https://github.com/achingbrain/it/blob/master/packages/it-parallel-batch) Take an iterable of functions that return promises and run them in parallel in batches
 * [`it-pipe`](https://github.com/alanshaw/it-pipe) - Utility to "pipe" async iterables together
 * [`it-pushable`](https://github.com/alanshaw/it-pushable) - Pushable iterable
 * [`it-reader`](https://github.com/alanshaw/it-reader) - Read an exact number of bytes from a binary (async) iterable
