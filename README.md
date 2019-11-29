@@ -8,6 +8,7 @@ Useful modules for working with async iterables:
 * [`event-iterator`](https://github.com/rolftimmermans/event-iterator) - Convert event emitter to async iterator
 * [`get-iterator`](https://github.com/alanshaw/get-iterator) - Get the default iterator or async iterator for an Iterable
 * [`it-all`](https://github.com/achingbrain/it/blob/master/packages/it-all) - Collect the contents of an iterable into an array
+* [`it-concat`](https://github.com/alanshaw/it-concat) - Concat all buffers/strings yielded from an async iterable into a single BufferList/string
 * [`it-batch`](https://github.com/achingbrain/it/blob/master/packages/it-batch) - Batch up the contents of an iterable into arrays
 * [`it-block`](https://github.com/alanshaw/it-block) - Transform input into equally-sized blocks of output
 * [`it-buffer-stream`](https://github.com/achingbrain/it/blob/master/packages/it-buffer-stream) - An async iterator that emits buffers containing bytes up to a certain length
