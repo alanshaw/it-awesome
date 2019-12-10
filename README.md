@@ -16,6 +16,7 @@ Useful modules for working with async iterables:
 * [`it-flat-batch`](https://github.com/achingbrain/it/blob/master/packages/it-flat-batch) Take an iterable of variable length arrays and make them all the same length
 * [`it-glob`](https://github.com/achingbrain/it/blob/master/packages/it-glob) - Async iterable filename pattern matcher
 * [`it-goodbye`](https://github.com/alanshaw/it-goodbye) - Add a goodbye handshake to a [duplex async iterable](https://gist.github.com/alanshaw/591dc7dd54e4f99338a347ef568d6ee9#duplex-it)
+* [`it-handshake`](https://github.com/jacobheun/it-handshake) - Create handshakes for binary protocols with [duplex async iterable](https://gist.github.com/alanshaw/591dc7dd54e4f99338a347ef568d6ee9#duplex-it)
 * [`it-keepalive`](https://github.com/alanshaw/it-keepalive) - Keep an async iterable alive by yielding a value if it doesn't yield a value before the timeout
 * [`it-last`](https://github.com/achingbrain/it/blob/master/packages/it-last) - Returns the last item from an async iterable
 * [`it-length-prefixed`](https://github.com/alanshaw/it-length-prefixed) - Streaming length prefixed buffers with async iterables
