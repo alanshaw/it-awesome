@@ -13,6 +13,7 @@ Useful modules for working with async iterables:
 * [`it-block`](https://github.com/alanshaw/it-block) - Transform input into equally-sized blocks of output
 * [`it-buffer`](https://github.com/mkg20001/it-buffer) - Is it a string? Is it a `BufferList`? Or just a `Buffer`? Worry no more with it-buffer! It exposes a transform stream that converts all buffer-like objects into true buffers
 * [`it-buffer-stream`](https://github.com/achingbrain/it/blob/master/packages/it-buffer-stream) - An async iterator that emits buffers containing bytes up to a certain length
+* [`it-drain`](https://github.com/achingbrain/it/tree/master/packages/it-drain) - Drains an async iterator without returning anything
 * [`it-first`](https://github.com/achingbrain/it/blob/master/packages/it-first) - Returns the first item from an async iterable
 * [`it-flat-batch`](https://github.com/achingbrain/it/blob/master/packages/it-flat-batch) Take an iterable of variable length arrays and make them all the same length
 * [`it-glob`](https://github.com/achingbrain/it/blob/master/packages/it-glob) - Async iterable filename pattern matcher
