@@ -23,6 +23,7 @@ Useful modules for working with async iterables:
 * [`it-last`](https://github.com/achingbrain/it/blob/master/packages/it-last) - Returns the last item from an async iterable
 * [`it-length-prefixed`](https://github.com/alanshaw/it-length-prefixed) - Streaming length prefixed buffers with async iterables
 * [`it-pb-rpc`](https://github.com/mkg20001/it-pb-rpc) - A convenience-wrapper around protocol-buffers and lp-messages functions
+* [`it-postmsg`](https://github.com/alanshaw/it-postmsg) - Streaming iterables over `window.postMessage`
 * [`it-multipart`](https://github.com/achingbrain/it/blob/master/packages/it-multipart) - HTTP multipart message parser
 * [`it-pair`](https://github.com/alanshaw/it-pair) - A pair of {source, sink} streams that are internally connected (what goes into the sink comes out the source)
 * [`it-parallel-batch`](https://github.com/achingbrain/it/blob/master/packages/it-parallel-batch) Take an iterable of functions that return promises and run them in parallel in batches
